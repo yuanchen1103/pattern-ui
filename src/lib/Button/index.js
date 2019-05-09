@@ -8,7 +8,7 @@ const Button = (props) => {
   const sizeClass = `button-${size}`;
   const typeClass = `button-${type}`;
   return (
-    <button type="button" className={classnames(styles.button, styles[typeClass], styles[sizeClass])}>
+    <button type="button" className={classnames(styles.button, styles[typeClass], styles[sizeClass])} disabled>
       {children}
     </button>
   );

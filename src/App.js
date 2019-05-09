@@ -4,7 +4,7 @@ import './assets/styles/normalize.css';
 
 const App = () => (
   <div style={{ width: 640, margin: '15px auto' }}>
-    <Button size="medium">Primary</Button>
+    <Button size="medium" type="outline-primary">Primary</Button>
   </div>
 );
 
